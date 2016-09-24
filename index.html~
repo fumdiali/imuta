@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<title>ịmụta | Learning location</title>
+<meta charset="utf-8" />
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include jQuery Mobile stylesheets -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+<!-- Include the jQuery library -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Include the jQuery Mobile library -->
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+<div data-role="page" id="home_pg">
+
+  <div data-role="header" data-theme="d">
+    <h1>ịmụta</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="ui-btn ui-icon-bullets">Classes</a></li>
+        <li><a href="#" class="ui-btn ui-icon-search">Search</a></li>
+      </ul>
+    </div>
+  </div><!--endof header -->
+
+  <div data-role="main" class="ui-content">
+    <ul data-role="listview" data-inset="true">
+      <li>
+        <a href="#">
+        <img src="thumb2.png" alt="image">
+        <h2>Monday</h2>
+        <p>Google Chrome is a free, open-source web browser. Released in 2008.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <img src="thumb1.jpeg" alt="image2">
+        <h2>Tuesday</h2>
+        <p>Firefox is a web browser from Mozilla. Released in 2004.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <img src="thumb3.jpeg" alt="image">
+        <h2>Wednesday</h2>
+        <p>Google Chrome is a free, open-source web browser. Released in 2008.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <img src="thumb4.jpeg" alt="image2">
+        <h2>Thursday</h2>
+        <p>Firefox is a web browser from Mozilla. Released in 2004.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <img src="thumb2.png" alt="image2">
+        <h2>Friday</h2>
+        <p>Firefox is a web browser from Mozilla. Released in 2004.</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div data-role="footer">
+    <h1>Insert Footer Text Here</h1>
+  </div>
+</div> 
+</body>
+</html>
